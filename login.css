@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg2.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    place-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+}
+.navbar> img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.form{
+  /* border: 2px solid black; */
+  height: 350px;
+  width: 270px;
+  position: relative;
+  top: 103px;
+  padding: 40px;
+
+}
+legend{
+  font-size: 30px;
+}
+.login_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.inputs{
+  text-align: center;
+margin-top: 30px;
+}
+label, input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: bisque;
+}
+
+input::placeholder {
+  color: gray;
+}
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6
+}
+.button_style{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+  border: none;
+  border-radius: 20px;
+}
+.submibtn{
+  width: 100px;
+    height: 30px;
+    border-radius: 50px;
+background: teal;
+border: none;
+color: white;
+font-family: ui-serif;
+}
+.cancelbtn{
+  width: 100px;
+    height: 30px;
+    border-radius: 50px;
+background: teal;
+border: none;
+color: white;
+font-family: ui-serif;
+  
+}
+button:hover {
+  opacity:1;
+}
+button{
+  color: red;
+}
